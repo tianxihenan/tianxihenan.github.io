@@ -3,18 +3,31 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Archives: 2023 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hello world">
-<meta property="og:type" content="website">
+  <meta name="description" content="一、[极客大挑战 2019]Secret File 1解题思路 1.开启靶机开启靶机后进入网址，没有什么好的信息  2.按F12查看源代码发现了一个网址.&#x2F;Archive_room.php按CTRL键点击即可进入，可以看到  点击这个SECRET并没有发生什么，后面倒是说“查阅结束”，那么就说明，速度很快，肉眼看不到，那我们就要借用工具burpsuite。首先下开启代理服务器 3.使用b">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2023/index.html">
+<meta property="og:url" content="http://example.com/2023/03/05/web/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="hello world">
+<meta property="og:description" content="一、[极客大挑战 2019]Secret File 1解题思路 1.开启靶机开启靶机后进入网址，没有什么好的信息  2.按F12查看源代码发现了一个网址.&#x2F;Archive_room.php按CTRL键点击即可进入，可以看到  点击这个SECRET并没有发生什么，后面倒是说“查阅结束”，那么就说明，速度很快，肉眼看不到，那我们就要借用工具burpsuite。首先下开启代理服务器 3.使用b">
 <meta property="og:locale" content="zh_TN">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/7a7ca8cd81dfdde9a0379ea84d0d335c.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/6c5094598fefd7dd7333e2632ebff1d3.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/240faba07eaf97b3e701de1e7da7fca1.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/ec786b401fe133c346e66ee47ba7a2ab.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/efb7f0e3de717041c1ac19d352dbbc9a.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/906cd9cf375e974f7f0ec1d4740c68a2.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/ca09d303bef3505fbb8cea397dd330fb.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/c1b5cbae463c8b351a02d691e55dc88b.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/d215ff68e0fb087898bcc6696330a751.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/img_convert/ee9459a1e82c5da4c32442d8ca09f316.png">
+<meta property="article:published_time" content="2023-03-04T22:12:03.249Z">
+<meta property="article:modified_time" content="2023-03-04T22:11:32.481Z">
 <meta property="article:author" content="tao">
 <meta property="article:tag" content="shangjuntao001">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/img_convert/7a7ca8cd81dfdde9a0379ea84d0d335c.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -44,8 +57,8 @@
           fancybox: true,
           animate: true,
           isHome: false,
-          isPost: false,
-          isArchive: true,
+          isPost: true,
+          isArchive: false,
           isTag: false,
           isCategory: false,
           open_in_new: false
@@ -330,125 +343,194 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-web" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2023/03/05/web/" class="article-date">
+      <time datetime="2023-03-04T22:12:03.249Z" itemprop="datePublished">2023-03-05</time>
+</a>
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="一、-极客大挑战-2019-Secret-File-1解题思路"><a href="#一、-极客大挑战-2019-Secret-File-1解题思路" class="headerlink" title="一、[极客大挑战 2019]Secret File 1解题思路"></a>一、[极客大挑战 2019]Secret File 1解题思路</h1><p><img src="https://img-blog.csdnimg.cn/img_convert/7a7ca8cd81dfdde9a0379ea84d0d335c.png" alt="img"></p>
+<h3 id="1-开启靶机"><a href="#1-开启靶机" class="headerlink" title="1.开启靶机"></a>1.开启靶机</h3><p>开启靶机后进入网址，没有什么好的信息</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/6c5094598fefd7dd7333e2632ebff1d3.png" alt="img"></p>
+<h3 id="2-按F12查看源代码"><a href="#2-按F12查看源代码" class="headerlink" title="2.按F12查看源代码"></a>2.按F12查看源代码</h3><p>发现了一个网址.&#x2F;Archive_room.php按CTRL键点击即可进入，可以看到</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/240faba07eaf97b3e701de1e7da7fca1.png" alt="img"></p>
+<p>点击这个SECRET并没有发生什么，后面倒是说“查阅结束”，那么就说明，速度很快，肉眼看不到，那我们就要借用工具burpsuite。首先下开启代理服务器</p>
+<h3 id="3-使用burpsuite"><a href="#3-使用burpsuite" class="headerlink" title="3.使用burpsuite"></a>3.使用burpsuite<img src="https://img-blog.csdnimg.cn/img_convert/ec786b401fe133c346e66ee47ba7a2ab.png" alt="img"></h3><p><img src="https://img-blog.csdnimg.cn/img_convert/efb7f0e3de717041c1ac19d352dbbc9a.png" alt="img"></p>
+<p>进入到这个界面，软件中应该显示出获取的信息，点击forward直到信息中出现action.php(根据源代码提示)</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/906cd9cf375e974f7f0ec1d4740c68a2.png" alt="img"></p>
+<p>接着将这串数据发送到repeater，在repeater里我们点击Go就进入到下面的界面</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/ca09d303bef3505fbb8cea397dd330fb.png" alt="img"></p>
+<p>后面的话我们就可以输入网址<a target="_blank" rel="noopener" href="http://78b3b06a-804f-46c6-8d85-8635948e27ad.node4.buuoj.cn/secr3t.php%E5%8F%AF%E4%BB%A5%E6%9F%A5%E7%9C%8B%E6%BA%90%E4%BB%A3%E7%A0%81%EF%BC%88%E8%AE%B0%E7%9D%80%E8%A6%81%E5%B0%86burpsuite%E5%92%8C%E5%B1%80%E5%9F%9F%E7%BD%91%E5%85%B3%E9%97%AD%EF%BC%8C%E5%90%A6%E5%88%99%E6%98%AF%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%EF%BC%89">http://78b3b06a-804f-46c6-8d85-8635948e27ad.node4.buuoj.cn/secr3t.php可以查看源代码（记着要将burpsuite和局域网关闭，否则是打不开的）</a></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/c1b5cbae463c8b351a02d691e55dc88b.png" alt="img"></p>
+<h3 id="4-代码解释"><a href="#4-代码解释" class="headerlink" title="4.代码解释"></a>4.代码解释</h3><p>这是一个PHP脚本，以HTML标签开头。该脚本包含了一个PHP函数 <code>highlight_file(__FILE__)</code>，该函数可以高亮正在执行的PHP代码。</p>
+<p>然后，该脚本设置了 <code>error_reporting(0)</code>，以关闭错误报告。</p>
+<p>该脚本通过 <code>$_GET</code> 超全局变量接收一个文件名作为参数。然后它检查文件名是否包含以下任何字符串： “..&#x2F;“、”tp”、”input” 或 “data”。如果包含，则脚本会打印 “Oh no!” 并退出。这是一种安全措施，用于防止目录遍历攻击并保护服务器免受恶意文件包含的攻击。</p>
+<p>如果文件名通过了安全检查，该脚本将使用 <code>include</code> 语句包含该文件。被包含的文件的内容将作为PHP代码执行。</p>
+<p>标志存储在名为 “flag.php” 的文件中，该文件可能由此脚本包含。</p>
+<h3 id="5-PHP伪协议"><a href="#5-PHP伪协议" class="headerlink" title="5.PHP伪协议"></a>5.PHP伪协议</h3><p>看到flag.php应该联想到<a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000018991087">php伪协议</a>，在后面加上<br>?file&#x3D;php:&#x2F;&#x2F;filter&#x2F;read&#x3D;convert.base64-encode&#x2F;resource&#x3D;flag.php即可。</p>
+<p>这是因为 php:&#x2F;&#x2F;filter&#x2F;read&#x3D;convert.base64-encode 是一种 PHP 伪协议，用于将文件转换为 base64 格式。通过在 $_GET 超全局变量中传递 file&#x3D;php:&#x2F;&#x2F;filter&#x2F;read&#x3D;convert.base64-encode&#x2F;resource&#x3D;flag.php，我们可以读取 flag.php 文件的内容并将其转换为 base64 格式。然后，我们可以将该内容解码并查看其中是否包含有用的信息。</p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/d215ff68e0fb087898bcc6696330a751.png" alt="img"></p>
+<p>就会给出一堆符号的组合，显然这是base64的密文，接着在base64解密下即可求得flag</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PCFET0NUWVBFIGh0bWw+Cgo8aHRtbD4KCiAgICA8aGVhZD4KICAgICAgICA8bWV0YSBjaGFyc2V0PSJ1dGYtOCI+CiAgICAgICAgPHRpdGxlPkZMQUc8L3RpdGxlPgogICAgPC9oZWFkPgoKICAgIDxib2R5IHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrOyI+PGJyPjxicj48YnI+PGJyPjxicj48YnI+CiAgICAgICAgCiAgICAgICAgPGgxIHN0eWxlPSJmb250LWZhbWlseTp2ZXJkYW5hO2NvbG9yOnJlZDt0ZXh0LWFsaWduOmNlbnRlcjsiPuWViuWTiO+8geS9oOaJvuWIsOaIkeS6hu+8geWPr+aYr+S9oOeci+S4jeWIsOaIkVFBUX5+fjwvaDE+PGJyPjxicj48YnI+CiAgICAgICAgCiAgICAgICAgPHAgc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsO2NvbG9yOnJlZDtmb250LXNpemU6MjBweDt0ZXh0LWFsaWduOmNlbnRlcjsiPgogICAgICAgICAgICA8P3BocAogICAgICAgICAgICAgICAgZWNobyAi5oiR5bCx5Zyo6L+Z6YeMIjsKICAgICAgICAgICAgICAgICRmbGFnID0gJ2ZsYWd7Mzk2MDEzYmItZjRkNC00NThjLWJmYWItYzhmODk4ZmI4Zjc0fSc7CiAgICAgICAgICAgICAgICAkc2VjcmV0ID0gJ2ppQW5nX0x1eXVhbl93NG50c19hX2cxcklmcmkzbmQnCiAgICAgICAgICAgID8+CiAgICAgICAgPC9wPgogICAgPC9ib2R5PgoKPC9odG1sPgo=</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-解密得到flag"><a href="#6-解密得到flag" class="headerlink" title="6.解密得到flag"></a>6.解密得到flag</h3><p>base64在线解密网址：<a target="_blank" rel="noopener" href="http://www.jsons.cn/base64/">http://www.jsons.cn/base64/</a></p>
+<p><img src="https://img-blog.csdnimg.cn/img_convert/ee9459a1e82c5da4c32442d8ca09f316.png" alt="img"></p>
+<p>flag为flag{396013bb-f4d4-458c-bfab-c8f898fb8f74}</p>
+<h2 id="7、总结"><a href="#7、总结" class="headerlink" title="7、总结"></a>7、总结</h2><p>在做这道题的时候，主要是会使用burpsute工具，并且还要了解PHP伪协议的一些知识及概念，最后还用到了一些密码里的base64，这些都需要了解一下。</p>
+
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2023" class="archive-year">2023</a>
-        </div>
-        <div class="archives">
+    </div>
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2023/03/05/web/" class="archive-article-date">
-      <time datetime="2023-03-04T22:12:03.249Z" itemprop="datePublished">03-05</time>
-</a>
-        </div>
-         
-        <div class="article-info info-on-archive">
-          
-
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2023/03/05/web/"></a></p>
+        <p><span>文章作者:</span><a href="/" title="访问  的个人博客"></a></p>
+        <p><span>发布时间:</span>2023年03月05日 - 06时12分</p>
+        <p><span>最后更新:</span>2023年03月05日 - 06时11分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2023/03/05/web/" title="">http://example.com/2023/03/05/web/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://example.com/2023/03/05/web/　　作者: " title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+  
+    <a href="/2023/03/05/pwn/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Pwn</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2023/03/05/pwn/" class="archive-article-date">
-      <time datetime="2023-03-04T21:23:01.422Z" itemprop="datePublished">03-05</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2023/03/05/pwn/">Pwn</a>
-    </h1>
-  
 
-        <div class="article-info info-on-archive">
-          
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81-%E6%9E%81%E5%AE%A2%E5%A4%A7%E6%8C%91%E6%88%98-2019-Secret-File-1%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF"><span class="toc-number">1.</span> <span class="toc-text">一、[极客大挑战 2019]Secret File 1解题思路</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%BC%80%E5%90%AF%E9%9D%B6%E6%9C%BA"><span class="toc-number">1.0.1.</span> <span class="toc-text">1.开启靶机</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%8C%89F12%E6%9F%A5%E7%9C%8B%E6%BA%90%E4%BB%A3%E7%A0%81"><span class="toc-number">1.0.2.</span> <span class="toc-text">2.按F12查看源代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E4%BD%BF%E7%94%A8burpsuite"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.使用burpsuite</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E4%BB%A3%E7%A0%81%E8%A7%A3%E9%87%8A"><span class="toc-number">1.0.4.</span> <span class="toc-text">4.代码解释</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-PHP%E4%BC%AA%E5%8D%8F%E8%AE%AE"><span class="toc-number">1.0.5.</span> <span class="toc-text">5.PHP伪协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E8%A7%A3%E5%AF%86%E5%BE%97%E5%88%B0flag"><span class="toc-number">1.0.6.</span> <span class="toc-text">6.解密得到flag</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E3%80%81%E6%80%BB%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">7、总结</span></a></li></ol></li></ol>
+</div>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2023/03/05/Crypto/" class="archive-article-date">
-      <time datetime="2023-03-04T21:22:43.435Z" itemprop="datePublished">03-05</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2023/03/05/Crypto/">Crypto</a>
-    </h1>
-  
 
-        <div class="article-info info-on-archive">
-          
+<script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2023/02/25/hello-world/" class="archive-article-date">
-      <time datetime="2023-02-25T02:55:57.729Z" itemprop="datePublished">02-25</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2023/02/25/hello-world/">Hello World</a>
-    </h1>
-  
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
 
-        <div class="article-info info-on-archive">
-          
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
 
-          
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
 
     
+        <section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tao'; // required: replace example with your forum shortname
 
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2023/03/05/pwn/" title="下一篇: Pwn">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2023/03/05/web/">web</a></li><li class="post-list-item"><a class="post-list-link" href="/2023/03/05/pwn/">Pwn</a></li><li class="post-list-item"><a class="post-list-link" href="/2023/03/05/Crypto/">Crypto</a></li><li class="post-list-item"><a class="post-list-link" href="/2023/02/25/hello-world/">Hello World</a></li></ul>
+    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
@@ -517,17 +599,6 @@
         };
     })
 </script>
-
-    <button class="hide-labels">TAG 开关</button>
-    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".article-info").toggle(200);
-            });
-        });
-    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
