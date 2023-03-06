@@ -1,20 +1,20 @@
 /* 文章页背景 */
 .layout_post>#post {
     /* 以下代表透明度为0.7 可以自行修改*/
-    background: rgba(198, 208, 214, 0.5);
+    background: rgb(198, 191, 191,0.5);
 }
  
 /* 所有页面背景 */
-#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+#aside_content .card-widget, #recent-posts>.recent-post-item,  .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post.layout_page>div:first-child:not(.recent-posts),{
     /* 以下代表透明度为0.7 */
-    background: rgba(209, 201, 209, 0.2);
+    background: rgb(222, 219, 219,0.5);
 }
 /*侧边卡片的透明度 */
 :root {
-  --card-bg: rgba(237, 241, 230, 0.2);
+  --card-bg: rgba(251, 251, 251, 0.895);
 }
 /* 页脚透明 */
 #footer {
 	/* 以下代表透明度为0.7 */
-	background: rgba(70, 170, 247, 0);
+	background: rgba(226, 228, 228, 0);
 }

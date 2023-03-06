@@ -19,3 +19,7 @@
   background-image:url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg),
     linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
 }
+@font-face {
+    font-family: 'sleek';
+    src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
+}
