@@ -8,11 +8,11 @@
 /* 所有页面背景 */
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
     /* 以下代表透明度为0.7 */
-    background: rgba(209, 201, 209, 0.5);
+    background: rgba(209, 201, 209, 0.2);
 }
 /*侧边卡片的透明度 */
 :root {
-  --card-bg: rgba(237, 241, 230, 0.5);
+  --card-bg: rgba(237, 241, 230, 0.2);
 }
 /* 页脚透明 */
 #footer {
