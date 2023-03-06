@@ -16,5 +16,5 @@
 /* 页脚透明 */
 #footer {
 	/* 以下代表透明度为0.7 */
-	background: rgba(226, 228, 228, 0.88);
+	background: rgba(0, 0, 0, 0.5);
 }
