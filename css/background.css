@@ -1,12 +1,11 @@
 #web_bg {
   /* 背景图像的地址（url括号里）  */
-
+  background-image: url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg);
   /* 背景图像不重复 */
   background-repeat: no-repeat;
   /* 背景图像大小 */
   background-size: cover;
 }
-
 /* 文章页背景 */
 #web_bg {
   /* 图片可下载上传到自己的图床也可以删掉*/
