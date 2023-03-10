@@ -1,6 +1,6 @@
 #web_bg {
   /* 背景图像的地址（url括号里）  */
-  background-image: url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg);
+  background-image: url(http://p3.itc.cn/q_70/images03/20221212/ba4c338f215248bda54f5d6aab065a63.jpeg);
   /* 背景图像不重复 */
   background-repeat: no-repeat;
   /* 背景图像大小 */
@@ -9,16 +9,20 @@
 /* 文章页背景 */
 #web_bg {
   /* 图片可下载上传到自己的图床也可以删掉*/
-  background-image: url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg),
+  background-image: url(http://p3.itc.cn/q_70/images03/20221212/ba4c338f215248bda54f5d6aab065a63.jpeg),
     -moz-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
-    background-image:url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg),
+    background-image:url(http://p8.itc.cn/q_70/images03/20221212/38c4a18267f540288e7ed81b9a424b5e.jpeg),
     -webkit-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
-    background-image: url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg),
+    background-image: url(https://i0.hdslb.com/bfs/album/9cafcdb3968416c2746d09ba72aae26f3bd3f676.jpg),
     -ms-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
-    background-image:url(https://img-blog.csdnimg.cn/img_convert/d87f474e9fccf6085cfcc74a1f1cee44.jpeg),
+    background-image:url(https://i0.hdslb.com/bfs/album/5dc679ff4c4791a715b3a48bb24d994e9ca807ff.jpg@2000w_1e.webp),
     linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
 }
 @font-face {
     font-family: 'sleek';
     src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
 }
+
+
+  
+ 
