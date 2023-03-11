@@ -9,13 +9,13 @@
 /* 文章页背景 */
 #web_bg {
   /* 图片可下载上传到自己的图床也可以删掉*/
-  background-image: url(http://i0.hdslb.com/bfs/album/5dc679ff4c4791a715b3a48bb24d994e9ca807ff.jpg@2000w_1e.webp),
+  background-image: url(https://p3.itc.cn/q_70/images03/20221212/ba4c338f215248bda54f5d6aab065a63.jpeg),
     -moz-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
-    background-image:url(http://i0.hdslb.com/bfs/album/5dc679ff4c4791a715b3a48bb24d994e9ca807ff.jpg@2000w_1e.webp),
+    background-image:url(https://p3.itc.cn/q_70/images03/20221212/ba4c338f215248bda54f5d6aab065a63.jpeg),
     -webkit-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
-    background-image: url(http://i0.hdslb.com/bfs/album/5dc679ff4c4791a715b3a48bb24d994e9ca807ff.jpg@2000w_1e.webp),
+    background-image: url(https://p3.itc.cn/q_70/images03/20221212/ba4c338f215248bda54f5d6aab065a63.jpeg),
     -ms-linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
-    background-image:url(http://i0.hdslb.com/bfs/album/5dc679ff4c4791a715b3a48bb24d994e9ca807ff.jpg@2000w_1e.webp),
+    background-image:url(https://p3.itc.cn/q_70/images03/20221212/ba4c338f215248bda54f5d6aab065a63.jpeg),
     linear-gradient(45deg, #6dd0f2 15%, #f59abe 85%);
 }
 @font-face {
